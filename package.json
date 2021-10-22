@@ -47,5 +47,18 @@
     "*.js": "eslint --cache --fix",
     "*.css": "stylelint --fix",
     "*.{html,css,js,json,md}": "prettier --write"
-  }
+  },
+  "description": "A boilerplate for JavaScript development with Vite.",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanPed/Pokemon-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanPed/Pokemon-API/issues"
+  },
+  "homepage": "https://github.com/SeanPed/Pokemon-API#readme"
 }
