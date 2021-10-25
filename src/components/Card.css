@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: blueviolet;
+  background-color: orangered;
 }
 
 .title {
   text-transform: uppercase;
   text-align: center;
-  font-size: 54px;
-  color: rgb(107, 139, 207);
+  font-size: 32px;
+  color: whitesmoke;
 }
 
 .container {
@@ -32,10 +32,11 @@ body {
 .card {
   list-style: none;
   padding: 40px;
+  margin: 40px;
   background-color: white;
   color: rgb(185, 75, 75);
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .card-name {
@@ -50,4 +51,19 @@ body {
   margin-top: 5px;
   color: #666;
   font-weight: lighter;
+}
+
+.learn-more__button {
+  margin-top: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border-style: 1px black;
+}
+
+.learn-more__button:hover {
+  box-shadow: 0 0 1px 0 goldenrod inset, 0 0 10px 4px gold;
+}
+
+.hidden {
+  display: none;
 }

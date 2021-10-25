@@ -19,8 +19,12 @@ function renderCards(data) {
   const card = Card({
     name: data.name,
     image: data.sprites.front_default,
+    shiny: data.sprites.front_shiny,
     id: data.id,
     height: data.height,
+    weight: data.weight,
+    xp: data.base_experience,
   })
   container.append(card)
+  ;(card.style.order = data.id), container.append(card)
 }
