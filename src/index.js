@@ -2,7 +2,7 @@ import Card from './components/Card'
 import { getBySelector } from './lib/dom'
 import './styles/index.css'
 
-const url = 'https://pokeapi.co/api/v2/pokemon?limit=100'
+const url = 'https://pokeapi.co/api/v2/pokemon?limit=151'
 
 fetch(url)
   .then(res => res.json())
