@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  padding: 40px;
+  padding: 5px;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
   padding-inline-start: 0;
 }
 
-.card {
+.poke-card {
   list-style: none;
   padding: 40px;
   background-color: white;
@@ -46,8 +46,18 @@ body {
   color: black;
 }
 
-.height.prop {
+.height-prop {
   margin-top: 5px;
-  color: #666;
+  color: rgb(95, 87, 87);
   font-weight: lighter;
+}
+
+.hidden {
+  display: none;
+}
+
+.Card__button {
+  border-radius: 5px;
+  background-color: rgb(96, 113, 136);
+  border: none;
 }
